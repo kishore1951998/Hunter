@@ -27,6 +27,7 @@ int main()
   {
     printf("-1");
   }
+  else{
   for(i=0;b[i]!='\0';i++)
   {
       for(j=i+1;b[j]!='\0';j++)
@@ -42,6 +43,6 @@ int main()
   for(i=0;b[i]!='\0';i++)
   {
       printf("%d ",b[i]);
-  }
+  }}
     return 0;
 }
