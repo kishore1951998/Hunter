@@ -23,6 +23,10 @@ int main()
       c=0;
      
   }
+  if(k==0)
+  {
+    printf("-1");
+  }
   for(i=0;b[i]!='\0';i++)
   {
       for(j=i+1;b[j]!='\0';j++)
